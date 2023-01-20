@@ -14,6 +14,7 @@ public class NcRModM {
         int B=Integer.parseInt(str[1]);
         int C=Integer.parseInt(str[2]);
         System.out.println(solve(A,B,C));
+
     }
     public static int solve(int A, int B, int C) {
         Map<Integer,Integer> mp1=primeFactorization(A);
